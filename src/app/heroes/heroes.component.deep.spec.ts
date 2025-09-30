@@ -10,14 +10,6 @@ describe('HeroesComponent (shallow test)', () => {
   let mockHeroService: jasmine.SpyObj<any>;
   let HEROES: Hero[];
 
-  @Component({
-    selector: 'app-hero',
-    template: '<div></div>',
-  })
-  class FakeHeroComponent {
-    @Input() hero: Hero | undefined;
-  }
-
   beforeEach(() => {
     HEROES = [
       { id: 1, name: 'SpiderDude', strength: 8 },
