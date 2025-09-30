@@ -14,7 +14,7 @@ describe("MessageService", () => {
     service = new MessageService();
     service.add("message");
     expect(service.messages.length).toBe(1);
-    expect(service.messages[0]).toBe("Test message");
+    expect(service.messages[0]).toBe("message");
   });
   it("should remove messages when clear is called", () => {
     service = new MessageService();
