@@ -30,4 +30,5 @@ describe( 'HeroService', () => {
       req.flush({id:4, name:'SuperDude', strength:100});
     })
   })
+
 })
