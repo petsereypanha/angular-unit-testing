@@ -80,3 +80,7 @@ describe('HeroesComponent (shallow test)', () => {
     expect(routerLink.navigatedTo).toBe('/detail/1');
   })
 })
+
+
+
+
